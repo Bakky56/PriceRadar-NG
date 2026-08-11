@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-header {
+  background-color: #fefffe;
+}
+.first-navbar-content{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.page-container{
+  
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-section {
+  background: linear-gradient(to right, #f6fefa, #feffff);
+}
+.naira {
+  background-color: #009666;
+  border-radius: 12px;
+}
+
+.form-section {
+  background-color: #f5fdf9;
+  width: 100%;
+
+ 
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #83e9c9;
+  border-radius: 15px;
+  color: #83e9c9;
+}
+.form-section:focus-within {
+  border: 4px solid #ceebe2;
+}
+.form-section button {
+  background: none;
+  border: none;
+  color: #9ad6b9;
+  margin: 0;
+}
+.form-section button:hover {
+  color: #9ad6b9;
+}
+.form-section ::placeholder {
+  color: #9ad6b9;
+}
+.form-section input {
+  background: none;
+  border: none;
+}
+.form-section input:focus {
+  outline: none;
+  box-shadow: none;
+  background: none;
+}
+.wifi {
+  background-color: #83e9c9;
+  border-radius: 10px;
+  color: green;
+}
+.letter {
+  background-color: #009666;
+  border-radius: 12px;
+}
+.moon {
+  color: #bae4d0;
+  transform: rotate(-35deg);
+}
+.moon:hover {
+  background-color: #e1eae6;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+.icon-bar {
+  margin-left: 30px;
+}
+
+.navlinks .nav-link {
+  color: #8becce !important;
+  gap: 0px;
+  margin: 0 10px;
+  font-size: 12px;
+
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.second-navbar {
+  border-bottom: 1px solid rgb(220, 212, 212);
+  width: 100%;
+  max-width: 100%;
+}
+.navlinks i{
+  margin-right: 6px !important;
+}
+.navlinks .nav-link:hover {
+  color: green !important;
+}
+.navlinks .nav-link:active {
+  color: green !important;
+}
+.main-section {
+  background: linear-gradient(to right, #f6fefa, #feffff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.admin-header h4 {
+  color: #004f3b;
+  font-size: 20px;
+  font-weight: 700;
+}
+.admin-header p {
+  background-color: #fef3c6;
+  color: #bb4d00;
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.flagged-report {
+  background-color: white;
+  text-align: center;
+  color: #009966;
+  border-radius: 15px;
+  border: 1px solid #d1f9e7;
+  
+}
+.flagged-report i{
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+.admin-content{
+    font-size: 25px;
+}
+.total-report {
+  background-color: white;
+  border: 1px solid #d1f9e7;
+  flex: 1;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 15px;
+  color: #009966;
+}
+.total-report p,
+.flagged p,
+.items-tracked p,
+.cities p {
+  color: #8cd792;
+  font-size: 12px;
+}
+.flagged {
+  background-color: white;
+  border: 1px solid #d1f9e7;
+  flex: 1;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 15px;
+  color: #e17100;
+}
+.items-tracked {
+  background-color: white;
+  border: 1px solid #d1f9e7;
+  flex: 1;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 15px;
+  color: #7c23f5;
+}
+.cities {
+  background-color: white;
+  border: 1px solid #d1f9e7;
+  flex: 1;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 15px;
+  color: #155dfc;
+}
+@media (max-width: 767.98px) {
+.overall-container{
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+    .page-container {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+  .first-navbar {
+    display: flex;
+    flex-direction: row; 
+      align-items: center;
+    width: 100% !important;
+    max-width: 100% !important;
+    
+    margin: 5px 0 20px 0 !important;
+    padding: 0!important;
+     margin-left: 0 !important;
+    width: auto !important;
+    flex-grow: 1;
+    height: 34px;
+  }
+
+  
+  .navbar-brand .brand-text {
+    display: none;
+  }
+
+  .form-section {
+ 
+    flex: 1;
+    width: 100%;
+    margin: 0 !important;
+    max-width: 300px;
+  
+  }
+
+  .form-section input{
+    padding-left: 0px !important;
+    
+  } 
+
+
+  .icon-bar {
+    margin:0 !important;
+  }
+
+  /* second navbar  */
+  .navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: left !important;
+
+  margin: 0;
+    padding: 0 !important;
+  }
+  .navlinks .nav-link {
+   padding: 0 !important; 
+  }
+ 
+  .navlinks .nav-link .link-text {
+    display: none;
+  }
+  .navlinks .nav-link i {
+    margin-right: 0;
+    font-size: 16px;
+  }
+  .admin-content{
+    flex-wrap: wrap !important;
+    gap: 12px;
+  }
+  .total-report,.flagged,.items-tracked,.cities{
+    flex: 1 1 45%;
+     min-width: 0 !important; 
+    margin: 0 !important;
+    border: 1px solid green;
+  }
+}
+
+
+https://github.com/Bakky56/PriceRadar-NG.git
