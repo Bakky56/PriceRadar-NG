@@ -28,6 +28,16 @@
   background-color: #009666;
   border-radius: 12px;
 }
+.navlogo{
+
+animation-name: slideLeft ;
+animation-duration: 2s;
+}
+@keyframes slideLeft {
+  from{
+    transform: translateX(155px);
+  }
+}
 
 .form-section {
   background-color: #f5fdf9;
@@ -295,5 +305,10 @@
   }
   .location-container{
     flex-direction: column;
+  }
+  .city-item option{
+    width:100%;
+    max-width: 80px;
+    background-color: red;
   }
 }
