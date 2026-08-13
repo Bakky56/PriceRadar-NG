@@ -307,8 +307,9 @@ animation-duration: 2s;
     flex-direction: column;
   }
   .city-item option{
-    width:100%;
-    max-width: 80px;
-    background-color: red;
+    width:60%;
+    /* max-width: 80px; */
+ 
+    font-size: 8px;
   }
 }

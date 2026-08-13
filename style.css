@@ -39,8 +39,8 @@ animation-duration: 2s;
 }
 @keyframes slideLeft {
   from{
-    transform: translateX(155px);
-  }
+    transform: translateX(80px);
+  }    
 }
 .form-section {
   background-color: #f5fdf9;
@@ -122,11 +122,25 @@ animation-duration: 2s;
 .navlinks .nav-link:active {
   color: green !important;
 }
-.report-content{
-transition: ease-out 0.2s;
+
+.main-section{
+  animation-name: slideInLeft;
+  animation-duration: 2s;
+  
 }
+@keyframes slideInLeft {
+  from{
+    opacity: 0;
+    transform: translateY(0);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(100px);
+  }
+}
+
 .report-content:hover{
-  transform: scale(1.08);
+  transform: translateY(-10px);
 }
 .petrol ,.diesel,.rice{
   flex: 1;
@@ -252,7 +266,7 @@ transition: ease-out 0.2s;
 }
 .all-items:hover {
   background-color: #bae4d0;
-  transition: 0.3s ease;
+
    transform: scale(1.08);
 }
 .all-items:active {
